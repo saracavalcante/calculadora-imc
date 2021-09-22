@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/input.css">
+    <link rel="stylesheet" href="css/components/button.css">
+    <link rel="stylesheet" href="css/components/info.css">
+
+    <title>Descubra seu IMC</title>
+</head>
+<body>
+    <main class="main-container">
+        <img src="assets/images/ellipse-1.png" alt="ellipse one" class="ellipse-left">
+        <img src="assets/images/ellipse-2.png" alt="ellipse two" class="ellipse-right">
+
+        <div class="info">
+            <div class="calc">
+                <h1 class="calc__title">Descubra seu IMC</h1>
+
+                <div class="height-weight">
+                    <div class="weight">
+                        <h2 class="height-weight__title">Peso</h2>
+                        <input class="height-weight__input" id="weight" type="text">
+                    </div>
+
+                    <div class="height">
+                        <h2 class="height-weight__title">Altura</h2>
+                        <input class="height-weight__input" id="height" type="text">
+                    </div>
+                </div>
+
+                <button class="calc__btn" id="calculate">Calcular</button>
+
+                <div class="calc__resul">
+                    <p class="imc__resul">O resultado do seu IMC</p>
+                    <h2 class="imc" id="imc">-</h2>
+                    <p class="imc__classification" id="imc__classification"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
