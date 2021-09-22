@@ -1,0 +1,13 @@
+.calc__btn {
+    border: none;
+    background: var(--light-blue);
+    box-shadow: 13px 14px 22px rgba(72, 148, 254, 0.48);
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.313rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5em;
+    padding: 11px;
+    width: 100%;
+}
