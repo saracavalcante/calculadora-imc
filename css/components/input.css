@@ -1,0 +1,9 @@
+.height-weight__input {
+    border: none;
+    border-radius: 15px;
+    color: var(--dark-blue);
+    font-size: 1rem;
+    margin-bottom: 2em;
+    padding: 1em 0;
+    text-align: center;
+}
